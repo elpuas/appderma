@@ -1,0 +1,94 @@
+body.home {
+  font-family: $primary-font !important;
+  header.entry-header {
+    display:none;
+  }
+  .entry-content {
+  .ewd-slide {
+      background-color: transparent !important;
+      }
+      h2 {
+         border-top: 1px solid $color-darkgray;
+         border-bottom: 1px solid $color-darkgray;
+         text-align: center;
+         font-weight: 400;
+         margin-top: 25px;
+         margin-bottom: 50px;
+      }
+      .columns-3 {
+        ul.products {
+          li.product {
+            a {
+              img {
+                border: 1px solid $color-darkgray;
+              }
+              h3 {
+                font-size: 1.5rem;
+              }
+              .star-rating {
+                font-size: 2rem;
+                span {
+                  &:before {
+                    color: gold;
+                  }
+                }
+              }
+              .price {
+                font-size: 1.5rem;
+                color: $primary-color !important;
+              }
+            }
+            .button {
+              background-color: $primary-color !important;
+              border-radius: 4px;
+              border-bottom: none;
+              padding: .8em 1.41575em
+            }
+          }
+        }
+      }
+      .appderma-mobil-promo {
+        background-color: $primary-color;
+        background-image: url('../img/iphone.jpg');
+        background-repeat: no-repeat;
+        background-position: bottom right;
+        min-height: 300px;
+        padding: 25px 35% 25px 25px;
+        margin-bottom: 50px;
+        h3 {
+          color: white;
+          font-size: 2.5rem;
+        }
+        p {
+          font-size: 16px;
+          color: white;
+        }
+        ul.appderma-store-ico {
+          margin: 0;
+          padding: 0;
+          list-style: none;
+          li {
+            width: 35%;
+            display: inline-block;
+            margin-right: 10px;
+            a {
+              img {
+              }
+            }
+          }
+        }
+      }
+      .appderma-brands {
+        ul.brands {
+          padding: 0;
+          margin: 0;
+          list-style: none;
+          li {
+            width: 22.333%;
+            margin-right: 10px;
+            display: inline-block;
+          }
+        }
+      }
+  }
+}

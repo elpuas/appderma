@@ -1,0 +1,19 @@
+footer.site-footer {
+  background-color: $primary-color;
+  color: white;
+  padding-top: 0;
+  padding-bottom: 0;
+  .col-full {
+    .footer-widgets {
+      padding-top: 25px;
+    }
+    .site-info {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      a {
+        color: white;
+        font-weight: 400;
+      }
+    }
+  }
+}

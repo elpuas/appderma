@@ -1,0 +1,13 @@
+{
+  "name": "grunt-sass-cssmin",
+  "private": "true",
+  "description": "Sass & CSS minify with Grunt JS",
+  "version": "0.0.1",
+  "main": "gruntfile.js",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-cssmin": "^2.0.0",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0"
+  }
+}
