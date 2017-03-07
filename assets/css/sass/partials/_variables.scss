@@ -8,7 +8,17 @@ $secondary-color:            #504e4e;
 $color-lightgray:            #a1a1a1;
 $color-darkgray:             #504e4e;
 
-// 1. Typography
+// 2. Typography
 // ==========================================================================
 
 $primary-font:             'Raleway', sans-serif;
+
+// 3 Global Styles
+// ==========================================================================
+
+body {
+  font-family: $primary-font !important;
+  .woocommerce-breadcrumb {
+    background-color: transparent !important;
+  }
+}

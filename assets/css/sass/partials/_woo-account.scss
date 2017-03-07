@@ -1,0 +1,39 @@
+body.woocommerce-account {
+  .site-main {
+    .entry-header {
+      display: none;
+    }
+    .entry-content {
+      .woocommerce {
+        .woocommerce-MyAccount-navigation {
+          ul {
+            li {
+              a {
+                color: $color-darkgray;
+                font-weight: 400;
+              }
+            }
+            .is-active {
+              a {
+                color: $primary-color;
+              }
+
+            }
+          }
+        }
+        .woocommerce-MyAccount-content {
+          p {
+            a {
+              color: $primary-color;
+            }
+            strong {
+              background-color: $primary-color;
+              color: white;
+              padding: 5px 10px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
