@@ -1,0 +1,65 @@
+// Tiendas
+
+body.page-template-template-fullwidth {
+  .site-main {
+    .entry-content {
+      p {
+        text-align: center;
+        padding: 25px;
+        font-size: 1.5rem;
+        border-top: 1px solid $color-darkgray;
+        border-bottom: 1px solid $color-darkgray;
+        margin-top: 25px;
+      }
+    .store-hero-img {
+      width:100%;
+      height: 400px;
+      overflow: hidden;
+      img {
+        display: none;
+      }
+    }
+    .store-title-img {
+      display:none;
+    }
+    .columns-4 {
+      ul.products {
+        li.product {
+          width: 29.4117647059% !important;
+          float: left;
+          margin-right: 5.8823529412% !important;
+          &:nth-child(3n+3) {
+            margin-right: 0 !important;
+          }
+          a {
+            img {
+              border: 1px solid $color-darkgray;
+            }
+            h3 {
+              font-size: 1.5rem;
+              font-weight: 400;
+            }
+            .woocommerce-Price-amount {
+              color: $primary-color;
+              font-size: 1.5rem;
+            }
+          }
+          a.add_to_cart_button {
+            background-color: $primary-color;
+            border-radius: 4px;
+
+          }
+        }
+      }
+    }
+  }
+ }
+}
+
+// Hero Sliders
+
+body.page-tienda-biretix {
+  .store-hero-img {
+    background-image: url('https://i2.wp.com/www.appderma.com/wp-content/uploads/2017/01/biretix-banner.jpg');
+  }
+}

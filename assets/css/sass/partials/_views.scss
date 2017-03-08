@@ -1,0 +1,138 @@
+// Input
+body.customize-support {
+  .site-main {
+    .entry-header {
+      display: none;
+    }
+    .wpv-filter-form {
+      select.js-wpv-filter-trigger {
+        width: 100%;
+        height: 50px;
+        margin-bottom: 25px;
+      }
+      ul.categorychecklist {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        li {
+          width: 50%;
+          float:left;
+        }
+      }
+      h3 {
+        text-align: center;
+        font-weight: 400;
+        text-transform: capitalize;
+        margin: 25px auto;
+      }
+      p {
+          text-align: center;
+          border-top: 1px solid $color-darkgray;
+          border-bottom: 1px solid $color-darkgray;
+          padding: 15px;
+          margin: 15px auto;
+      }
+
+      button.button-default {
+        background-color: $primary-color;
+        float: right;
+        border-radius: 4px;
+      }
+
+    .step-one-logic {
+        img {
+        width: 20%;
+        margin: 0 auto;
+      }
+    }
+    .step-two-logic {
+        img {
+        width: 20%;
+        margin: 0 auto;
+        }
+        a.io-modal-open {
+          display: none;
+        }
+        select {
+          padding: 15px;
+          option {
+            padding: 10px;
+            height: 50px;
+
+          }
+          option[value="uno"] {
+            background-color: #fdeed7;
+            // background-image: url('https://www.appderma.com/wp-content/uploads/2017/02/home-app-fototipos.jpg');
+            color: #250705;
+            font-size: 3rem;
+            font-weight: 700;
+          }
+          option[value="fototipo-dos"] {
+            background-color: #ffe0c7;
+            color: #c2a387;
+            font-size: 3rem;
+            font-weight: 700;
+          }
+          option[value="fototipo-tres"] {
+            background-color: #fccda1;
+            color: #cb933e;
+            font-size: 3rem;
+            font-weight: 700;
+          }
+          option[value="fototipo-cuatro"] {
+            background-color: #e0ad6b;
+            color: #ffe0c9;
+            font-size: 3rem;
+            font-weight: 700;
+          }
+          option[value="fototipo-cinco"] {
+            background-color: #8c563a;
+            color: #f7ddc4;
+            font-size: 3rem;
+            font-weight: 700;
+          }
+          option[value="fototipo-seis"] {
+            background-color: #270a04;
+            color:#fffef1;
+            font-size: 3rem;
+            font-weight: 700;
+          }
+        }
+      }
+    }
+  }
+
+div.js-wpv-view-layout {
+  ul.js-wpv-loop {
+    margin:0;
+    padding: 0;
+    list-style: none;
+    li {
+      width: 29.4117647059%;
+      float: left;
+      margin-right: 5.8823529412%;
+      text-align: center;
+      margin-bottom: 4.235801032em;
+      &:nth-child(3n+3) {
+        margin-right: 0;
+      }
+      a {
+        font-size: 1.5rem;
+        color:$color-darkgray;
+        font-weight: 400;
+        img {
+           border: 1px solid $color-darkgray;
+           margin-bottom: 1.618em;
+        }
+      }
+      .woocommerce-Price-amount {
+        font-size: 1.5rem;
+        color: #8c9954!important;
+      }
+    }
+  }
+}
+
+// Output
+
+}

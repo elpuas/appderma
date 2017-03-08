@@ -32,7 +32,76 @@ body.woocommerce-account {
               padding: 5px 10px;
             }
           }
+          table.my_account_points_rewards {
+            thead {
+              th {
+                background-color: $primary-color;
+                color:white;
+              }
+            }
+          }
+          table.woocommerce-MyAccount-orders {
+            thead {
+              th {
+                background-color: $primary-color;
+                color: white;
+              }
+            }
+            tbody {
+              tr.order {
+                td.order-number {
+                  a {
+                    color: $primary-color;
+                  }
+                }
+                td.order-actions {
+                  a {
+                    background-color: $primary-color;
+                    border-radius: 4px;
+                  }
+                }
+              }
+            }
+          }
+          .woocommerce-Message {
+            background-color: $primary-color;
+          }
+          .woocommerce-Addresses {
+            a {
+              color: $primary-color;
+            }
+          }
+          form.woocommerce-EditAccountForm {
+            label {
+              font-weight: 400;
+            }
+            fieldset {
+              legend {
+                text-align: center;
+                font-size: 24px;
+                padding: 25px 0;
+              }
+            }
+            input.woocommerce-Button {
+              background-color: $primary-color;
+              border-radius: 4px;
+            }
+          }
         }
+      }
+    }
+  }
+  form.login {
+    label {
+      font-weight: 400;
+    }
+    input.woocommerce-Button {
+      background-color: $primary-color;
+      border-radius: 4px;
+    }
+    .woocommerce-LostPassword {
+      a {
+        color: $primary-color;
       }
     }
   }

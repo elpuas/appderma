@@ -6,6 +6,19 @@ body {
 body .woocommerce-breadcrumb {
   background-color: transparent !important;
 }
+/* line 25, sass/partials/_variables.scss */
+body .entry-content h3 {
+  text-align: center;
+  font-weight: 400;
+}
+/* line 29, sass/partials/_variables.scss */
+body .entry-content a.add_to_cart_button {
+  text-transform: capitalize;
+}
+/* line 32, sass/partials/_variables.scss */
+body .entry-content .jp-relatedposts {
+  display: none;
+}
 
 /* line 2, sass/partials/_header.scss */
 .top-gfx {
@@ -222,50 +235,51 @@ body.woocommerce-page .site-main ul.products li.product a img {
 /* line 19, sass/partials/_woocommerce.scss */
 body.woocommerce-page .site-main ul.products li.product a h3 {
   font-size: 1.5rem;
+  font-weight: 400;
 }
-/* line 22, sass/partials/_woocommerce.scss */
+/* line 23, sass/partials/_woocommerce.scss */
 body.woocommerce-page .site-main ul.products li.product a .star-rating {
   font-size: 2rem;
 }
-/* line 25, sass/partials/_woocommerce.scss */
+/* line 26, sass/partials/_woocommerce.scss */
 body.woocommerce-page .site-main ul.products li.product a .star-rating span:before {
   color: gold;
 }
-/* line 30, sass/partials/_woocommerce.scss */
+/* line 31, sass/partials/_woocommerce.scss */
 body.woocommerce-page .site-main ul.products li.product a .price {
   font-size: 1.5rem;
   color: #8c9954 !important;
 }
-/* line 35, sass/partials/_woocommerce.scss */
+/* line 36, sass/partials/_woocommerce.scss */
 body.woocommerce-page .site-main ul.products li.product .button {
   background-color: #8c9954 !important;
   border-radius: 4px;
   border-bottom: none;
   padding: 0.8em 1.41575em;
 }
-/* line 46, sass/partials/_woocommerce.scss */
+/* line 47, sass/partials/_woocommerce.scss */
 body.woocommerce-page .site-main .type-product .images a img {
   border: 1px solid #504e4e;
 }
-/* line 54, sass/partials/_woocommerce.scss */
+/* line 55, sass/partials/_woocommerce.scss */
 body.woocommerce-page .site-main .type-product .entry-summary .woocommerce-product-rating .star-rating {
   font-size: 2rem;
 }
-/* line 57, sass/partials/_woocommerce.scss */
+/* line 58, sass/partials/_woocommerce.scss */
 body.woocommerce-page .site-main .type-product .entry-summary .woocommerce-product-rating .star-rating span:before {
   color: gold;
 }
-/* line 63, sass/partials/_woocommerce.scss */
+/* line 64, sass/partials/_woocommerce.scss */
 body.woocommerce-page .site-main .type-product .entry-summary .price {
   font-size: 1.5rem;
   color: #8c9954 !important;
 }
-/* line 67, sass/partials/_woocommerce.scss */
+/* line 68, sass/partials/_woocommerce.scss */
 body.woocommerce-page .site-main .type-product .entry-summary .single_add_to_cart_button {
   background-color: #8c9954 !important;
   border-radius: 4px;
 }
-/* line 73, sass/partials/_woocommerce.scss */
+/* line 74, sass/partials/_woocommerce.scss */
 body.woocommerce-page .site-main .type-product .related h2 {
   border-top: 1px solid #504e4e;
   border-bottom: 1px solid #504e4e;
@@ -274,38 +288,38 @@ body.woocommerce-page .site-main .type-product .related h2 {
   margin-top: 25px;
   margin-bottom: 50px;
 }
-/* line 89, sass/partials/_woocommerce.scss */
+/* line 90, sass/partials/_woocommerce.scss */
 body.woocommerce-page .site-main table.shop_table tbody tr td.actions .coupon input.button {
   background-color: #8c9954;
   border-radius: 4px;
 }
-/* line 94, sass/partials/_woocommerce.scss */
+/* line 95, sass/partials/_woocommerce.scss */
 body.woocommerce-page .site-main table.shop_table tbody tr td.actions input.button {
   background-color: #8c9954;
   border-radius: 4px;
 }
-/* line 104, sass/partials/_woocommerce.scss */
+/* line 105, sass/partials/_woocommerce.scss */
 body.woocommerce-page .site-main .cart-collaterals .wc-proceed-to-checkout a.checkout-button {
   background-color: #8c9954;
   border-radius: 4px;
 }
-/* line 114, sass/partials/_woocommerce.scss */
+/* line 115, sass/partials/_woocommerce.scss */
 body.woocommerce-page .site-main form.woocommerce-checkout .woocommerce-billing-fields p label {
   font-weight: 400;
 }
-/* line 118, sass/partials/_woocommerce.scss */
+/* line 119, sass/partials/_woocommerce.scss */
 body.woocommerce-page .site-main form.woocommerce-checkout .woocommerce-billing-fields p#billing_state_field {
   width: 100% !important;
 }
-/* line 125, sass/partials/_woocommerce.scss */
+/* line 126, sass/partials/_woocommerce.scss */
 body.woocommerce-page .site-main form.woocommerce-checkout #wc_checkout_add_ons {
   padding-top: 55px !important;
 }
-/* line 128, sass/partials/_woocommerce.scss */
+/* line 129, sass/partials/_woocommerce.scss */
 body.woocommerce-page .site-main form.woocommerce-checkout #wc_checkout_add_ons p label {
   font-weight: 400;
 }
-/* line 136, sass/partials/_woocommerce.scss */
+/* line 137, sass/partials/_woocommerce.scss */
 body.woocommerce-page .site-main form.woocommerce-checkout .woocommerce-checkout-review-order .woocommerce-checkout-payment .place-order input.button {
   background-color: #8c9954;
   border-radius: 4px;
@@ -333,4 +347,259 @@ body.woocommerce-account .site-main .entry-content .woocommerce .woocommerce-MyA
   background-color: #8c9954;
   color: white;
   padding: 5px 10px;
+}
+/* line 37, sass/partials/_woo-account.scss */
+body.woocommerce-account .site-main .entry-content .woocommerce .woocommerce-MyAccount-content table.my_account_points_rewards thead th {
+  background-color: #8c9954;
+  color: white;
+}
+/* line 45, sass/partials/_woo-account.scss */
+body.woocommerce-account .site-main .entry-content .woocommerce .woocommerce-MyAccount-content table.woocommerce-MyAccount-orders thead th {
+  background-color: #8c9954;
+  color: white;
+}
+/* line 53, sass/partials/_woo-account.scss */
+body.woocommerce-account .site-main .entry-content .woocommerce .woocommerce-MyAccount-content table.woocommerce-MyAccount-orders tbody tr.order td.order-number a {
+  color: #8c9954;
+}
+/* line 58, sass/partials/_woo-account.scss */
+body.woocommerce-account .site-main .entry-content .woocommerce .woocommerce-MyAccount-content table.woocommerce-MyAccount-orders tbody tr.order td.order-actions a {
+  background-color: #8c9954;
+  border-radius: 4px;
+}
+/* line 66, sass/partials/_woo-account.scss */
+body.woocommerce-account .site-main .entry-content .woocommerce .woocommerce-MyAccount-content .woocommerce-Message {
+  background-color: #8c9954;
+}
+/* line 70, sass/partials/_woo-account.scss */
+body.woocommerce-account .site-main .entry-content .woocommerce .woocommerce-MyAccount-content .woocommerce-Addresses a {
+  color: #8c9954;
+}
+/* line 75, sass/partials/_woo-account.scss */
+body.woocommerce-account .site-main .entry-content .woocommerce .woocommerce-MyAccount-content form.woocommerce-EditAccountForm label {
+  font-weight: 400;
+}
+/* line 79, sass/partials/_woo-account.scss */
+body.woocommerce-account .site-main .entry-content .woocommerce .woocommerce-MyAccount-content form.woocommerce-EditAccountForm fieldset legend {
+  text-align: center;
+  font-size: 24px;
+  padding: 25px 0;
+}
+/* line 85, sass/partials/_woo-account.scss */
+body.woocommerce-account .site-main .entry-content .woocommerce .woocommerce-MyAccount-content form.woocommerce-EditAccountForm input.woocommerce-Button {
+  background-color: #8c9954;
+  border-radius: 4px;
+}
+/* line 95, sass/partials/_woo-account.scss */
+body.woocommerce-account form.login label {
+  font-weight: 400;
+}
+/* line 98, sass/partials/_woo-account.scss */
+body.woocommerce-account form.login input.woocommerce-Button {
+  background-color: #8c9954;
+  border-radius: 4px;
+}
+/* line 103, sass/partials/_woo-account.scss */
+body.woocommerce-account form.login .woocommerce-LostPassword a {
+  color: #8c9954;
+}
+
+/* line 4, sass/partials/_views.scss */
+body.customize-support .site-main .entry-header {
+  display: none;
+}
+/* line 8, sass/partials/_views.scss */
+body.customize-support .site-main .wpv-filter-form select.js-wpv-filter-trigger {
+  width: 100%;
+  height: 50px;
+  margin-bottom: 25px;
+}
+/* line 13, sass/partials/_views.scss */
+body.customize-support .site-main .wpv-filter-form ul.categorychecklist {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+/* line 17, sass/partials/_views.scss */
+body.customize-support .site-main .wpv-filter-form ul.categorychecklist li {
+  width: 50%;
+  float: left;
+}
+/* line 22, sass/partials/_views.scss */
+body.customize-support .site-main .wpv-filter-form h3 {
+  text-align: center;
+  font-weight: 400;
+  text-transform: capitalize;
+  margin: 25px auto;
+}
+/* line 28, sass/partials/_views.scss */
+body.customize-support .site-main .wpv-filter-form p {
+  text-align: center;
+  border-top: 1px solid #504e4e;
+  border-bottom: 1px solid #504e4e;
+  padding: 15px;
+  margin: 15px auto;
+}
+/* line 36, sass/partials/_views.scss */
+body.customize-support .site-main .wpv-filter-form button.button-default {
+  background-color: #8c9954;
+  float: right;
+  border-radius: 4px;
+}
+/* line 43, sass/partials/_views.scss */
+body.customize-support .site-main .wpv-filter-form .step-one-logic img {
+  width: 20%;
+  margin: 0 auto;
+}
+/* line 49, sass/partials/_views.scss */
+body.customize-support .site-main .wpv-filter-form .step-two-logic img {
+  width: 20%;
+  margin: 0 auto;
+}
+/* line 53, sass/partials/_views.scss */
+body.customize-support .site-main .wpv-filter-form .step-two-logic a.io-modal-open {
+  display: none;
+}
+/* line 56, sass/partials/_views.scss */
+body.customize-support .site-main .wpv-filter-form .step-two-logic select {
+  padding: 15px;
+}
+/* line 58, sass/partials/_views.scss */
+body.customize-support .site-main .wpv-filter-form .step-two-logic select option {
+  padding: 10px;
+  height: 50px;
+}
+/* line 63, sass/partials/_views.scss */
+body.customize-support .site-main .wpv-filter-form .step-two-logic select option[value="uno"] {
+  background-color: #fdeed7;
+  color: #250705;
+  font-size: 3rem;
+  font-weight: 700;
+}
+/* line 70, sass/partials/_views.scss */
+body.customize-support .site-main .wpv-filter-form .step-two-logic select option[value="fototipo-dos"] {
+  background-color: #ffe0c7;
+  color: #c2a387;
+  font-size: 3rem;
+  font-weight: 700;
+}
+/* line 76, sass/partials/_views.scss */
+body.customize-support .site-main .wpv-filter-form .step-two-logic select option[value="fototipo-tres"] {
+  background-color: #fccda1;
+  color: #cb933e;
+  font-size: 3rem;
+  font-weight: 700;
+}
+/* line 82, sass/partials/_views.scss */
+body.customize-support .site-main .wpv-filter-form .step-two-logic select option[value="fototipo-cuatro"] {
+  background-color: #e0ad6b;
+  color: #ffe0c9;
+  font-size: 3rem;
+  font-weight: 700;
+}
+/* line 88, sass/partials/_views.scss */
+body.customize-support .site-main .wpv-filter-form .step-two-logic select option[value="fototipo-cinco"] {
+  background-color: #8c563a;
+  color: #f7ddc4;
+  font-size: 3rem;
+  font-weight: 700;
+}
+/* line 94, sass/partials/_views.scss */
+body.customize-support .site-main .wpv-filter-form .step-two-logic select option[value="fototipo-seis"] {
+  background-color: #270a04;
+  color: #fffef1;
+  font-size: 3rem;
+  font-weight: 700;
+}
+/* line 106, sass/partials/_views.scss */
+body.customize-support div.js-wpv-view-layout ul.js-wpv-loop {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+/* line 110, sass/partials/_views.scss */
+body.customize-support div.js-wpv-view-layout ul.js-wpv-loop li {
+  width: 29.4117647059%;
+  float: left;
+  margin-right: 5.8823529412%;
+  text-align: center;
+  margin-bottom: 4.235801032em;
+}
+/* line 116, sass/partials/_views.scss */
+body.customize-support div.js-wpv-view-layout ul.js-wpv-loop li:nth-child(3n+3) {
+  margin-right: 0;
+}
+/* line 119, sass/partials/_views.scss */
+body.customize-support div.js-wpv-view-layout ul.js-wpv-loop li a {
+  font-size: 1.5rem;
+  color: #504e4e;
+  font-weight: 400;
+}
+/* line 123, sass/partials/_views.scss */
+body.customize-support div.js-wpv-view-layout ul.js-wpv-loop li a img {
+  border: 1px solid #504e4e;
+  margin-bottom: 1.618em;
+}
+/* line 128, sass/partials/_views.scss */
+body.customize-support div.js-wpv-view-layout ul.js-wpv-loop li .woocommerce-Price-amount {
+  font-size: 1.5rem;
+  color: #8c9954 !important;
+}
+
+/* line 6, sass/partials/_brand-store.scss */
+body.page-template-template-fullwidth .site-main .entry-content p {
+  text-align: center;
+  padding: 25px;
+  font-size: 1.5rem;
+  border-top: 1px solid #504e4e;
+  border-bottom: 1px solid #504e4e;
+  margin-top: 25px;
+}
+/* line 14, sass/partials/_brand-store.scss */
+body.page-template-template-fullwidth .site-main .entry-content .store-hero-img {
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+}
+/* line 18, sass/partials/_brand-store.scss */
+body.page-template-template-fullwidth .site-main .entry-content .store-hero-img img {
+  display: none;
+}
+/* line 22, sass/partials/_brand-store.scss */
+body.page-template-template-fullwidth .site-main .entry-content .store-title-img {
+  display: none;
+}
+/* line 27, sass/partials/_brand-store.scss */
+body.page-template-template-fullwidth .site-main .entry-content .columns-4 ul.products li.product {
+  width: 29.4117647059% !important;
+  float: left;
+  margin-right: 5.8823529412% !important;
+}
+/* line 31, sass/partials/_brand-store.scss */
+body.page-template-template-fullwidth .site-main .entry-content .columns-4 ul.products li.product:nth-child(3n+3) {
+  margin-right: 0 !important;
+}
+/* line 35, sass/partials/_brand-store.scss */
+body.page-template-template-fullwidth .site-main .entry-content .columns-4 ul.products li.product a img {
+  border: 1px solid #504e4e;
+}
+/* line 38, sass/partials/_brand-store.scss */
+body.page-template-template-fullwidth .site-main .entry-content .columns-4 ul.products li.product a h3 {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+/* line 42, sass/partials/_brand-store.scss */
+body.page-template-template-fullwidth .site-main .entry-content .columns-4 ul.products li.product a .woocommerce-Price-amount {
+  color: #8c9954;
+  font-size: 1.5rem;
+}
+/* line 47, sass/partials/_brand-store.scss */
+body.page-template-template-fullwidth .site-main .entry-content .columns-4 ul.products li.product a.add_to_cart_button {
+  background-color: #8c9954;
+  border-radius: 4px;
+}
+
+/* line 62, sass/partials/_brand-store.scss */
+body.page-tienda-biretix .store-hero-img {
+  background-image: url("https://i2.wp.com/www.appderma.com/wp-content/uploads/2017/01/biretix-banner.jpg");
 }

@@ -21,4 +21,16 @@ body {
   .woocommerce-breadcrumb {
     background-color: transparent !important;
   }
+  .entry-content {
+    h3 {
+      text-align: center;
+      font-weight: 400;
+    }
+    a.add_to_cart_button  {
+      text-transform: capitalize;
+    }
+    .jp-relatedposts {
+      display: none;
+    }
+  }
 }

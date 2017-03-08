@@ -52,6 +52,16 @@ function sf_child_theme_dequeue_style() {
  	}
  }
 
+ //Page Slug Body Class
+        function add_slug_body_class( $classes ) {
+        global $post;
+        if ( isset( $post ) ) {
+        $classes[] = $post->post_type . '-' . $post->post_name;
+        }
+        return $classes;
+        }
+        add_filter( 'body_class', 'add_slug_body_class' );
+
  // Add Tag Shortcodes - Author Remi Corson
 
 function woo_products_by_tags_shortcode( $atts, $content = null ) {
