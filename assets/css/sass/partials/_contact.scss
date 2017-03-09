@@ -1,0 +1,41 @@
+// GF Contact Page
+
+body.page-contacto {
+    .site-main  {
+      .entry-content {
+        p {
+          text-align: center;
+          padding: 25px;
+          font-size: 1.5rem;
+          border-top: 1px solid #504e4e;
+          border-bottom: 1px solid #504e4e;
+          margin-top: 25px;
+      }
+      .contact-info {
+        display: none;
+      }
+      .gform_wrapper {
+        .gform_body {
+          ul.gform_fields {
+            li {
+              label {
+                display: none;
+                }
+                input {
+                  width: 100%;
+                  margin-bottom: 25px;
+                  padding: 15px !important;
+                }
+              }
+            }
+          }
+          input[type="submit"] {
+            float: right !important;
+            background-color: $primary-color;
+            border-radius: 4px;
+            padding: 15px 50px;
+          }
+        }
+      }
+    }
+  }

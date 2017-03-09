@@ -1,9 +1,21 @@
 body.home {
-  
+
   header.entry-header {
     display:none;
   }
   .entry-content {
+    section.swiper-container {
+      margin: 25px 0 !important;
+      margin-bottom: 50px !important;
+    }
+    p {
+      border-top: none !important;
+      border-bottom: none !important;
+      text-align: left !important;
+      line-height: 0 !important;
+      padding: 0 !important;
+
+  }
   .ewd-slide {
       background-color: transparent !important;
       }
@@ -55,13 +67,16 @@ body.home {
         min-height: 300px;
         padding: 25px 35% 25px 25px;
         margin-bottom: 50px;
+        text-align: left;
         h3 {
           color: white;
           font-size: 2.5rem;
+          font-weight: 700;
         }
         p {
-          font-size: 16px;
+          font-size: 16px !important;
           color: white;
+          line-height: 1.5rem !important;
         }
         ul.appderma-store-ico {
           margin: 0;

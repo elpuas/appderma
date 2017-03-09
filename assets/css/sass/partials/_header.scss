@@ -46,6 +46,14 @@
               padding: 10px 1em;
               font-weight: 400;
             }
+            ul.sub-menu {
+              background-color: $primary-color-light-5;
+              li {
+                a {
+                 color: white !important;
+                }
+              }
+            }
           }
         }
       }

@@ -19,6 +19,62 @@ body .entry-content a.add_to_cart_button {
 body .entry-content .jp-relatedposts {
   display: none;
 }
+/* line 36, sass/partials/_variables.scss */
+body form.wc_points_rewards_apply_discount {
+  display: none;
+}
+/* line 39, sass/partials/_variables.scss */
+body .wc_points_redeem_earn_points {
+  background-color: #8c9954;
+  color: white;
+}
+
+/* line 46, sass/partials/_variables.scss */
+body.error404 a.add_to_cart_button {
+  background-color: #8c9954;
+  border-radius: 4px;
+  text-transform: capitalize;
+}
+/* line 54, sass/partials/_variables.scss */
+body.error404 ul.products li a img {
+  border: 1px solid #504e4e;
+}
+/* line 57, sass/partials/_variables.scss */
+body.error404 ul.products li a h3 {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+/* line 61, sass/partials/_variables.scss */
+body.error404 ul.products li a .woocommerce-Price-amount {
+  font-size: 1.5rem;
+  color: #8c9954;
+}
+/* line 70, sass/partials/_variables.scss */
+body.error404 ul.product-categories li a {
+  color: #8c9954;
+}
+/* line 76, sass/partials/_variables.scss */
+body.error404 section h2 {
+  text-align: center;
+  font-weight: 400;
+  border-top: 1px solid #504e4e;
+  border-bottom: 1px solid #504e4e;
+  padding: 15px;
+}
+/* line 87, sass/partials/_variables.scss */
+body.error404 section ul li a img {
+  border: 1px solid #504e4e;
+}
+/* line 90, sass/partials/_variables.scss */
+body.error404 section ul li a h3 {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+/* line 94, sass/partials/_variables.scss */
+body.error404 section ul li a .woocommerce-Price-amount {
+  font-size: 1.5rem;
+  color: #8c9954;
+}
 
 /* line 2, sass/partials/_header.scss */
 .top-gfx {
@@ -75,30 +131,38 @@ body .entry-content .jp-relatedposts {
   padding: 10px 1em;
   font-weight: 400;
 }
-/* line 54, sass/partials/_header.scss */
+/* line 49, sass/partials/_header.scss */
+.site-header .storefront-primary-navigation .main-navigation .primary-navigation ul.menu li ul.sub-menu {
+  background-color: #c5d776;
+}
+/* line 52, sass/partials/_header.scss */
+.site-header .storefront-primary-navigation .main-navigation .primary-navigation ul.menu li ul.sub-menu li a {
+  color: white !important;
+}
+/* line 62, sass/partials/_header.scss */
 .site-header .storefront-primary-navigation .site-header-cart a.cart-contents {
   color: #8c9954;
   padding: 10px 0 !important;
 }
-/* line 59, sass/partials/_header.scss */
+/* line 67, sass/partials/_header.scss */
 .site-header .storefront-primary-navigation .site-header-cart li .widget_shopping_cart {
   background-color: #c5d776;
   color: white !important;
 }
-/* line 64, sass/partials/_header.scss */
+/* line 72, sass/partials/_header.scss */
 .site-header .storefront-primary-navigation .site-header-cart li .widget_shopping_cart ul.product_list_widget li.mini_cart_item a {
   color: white !important;
 }
-/* line 67, sass/partials/_header.scss */
+/* line 75, sass/partials/_header.scss */
 .site-header .storefront-primary-navigation .site-header-cart li .widget_shopping_cart ul.product_list_widget li.mini_cart_item span.quantity {
   color: white !important;
 }
-/* line 73, sass/partials/_header.scss */
+/* line 81, sass/partials/_header.scss */
 .site-header .storefront-primary-navigation .site-header-cart li .widget_shopping_cart p.buttons a.wc-forward {
   background-color: #8c9954;
   border-radius: 4px;
 }
-/* line 77, sass/partials/_header.scss */
+/* line 85, sass/partials/_header.scss */
 .site-header .storefront-primary-navigation .site-header-cart li .widget_shopping_cart p.buttons a.checkout {
   background-color: black;
 }
@@ -130,10 +194,23 @@ body.home header.entry-header {
   display: none;
 }
 /* line 7, sass/partials/_home.scss */
+body.home .entry-content section.swiper-container {
+  margin: 25px 0 !important;
+  margin-bottom: 50px !important;
+}
+/* line 11, sass/partials/_home.scss */
+body.home .entry-content p {
+  border-top: none !important;
+  border-bottom: none !important;
+  text-align: left !important;
+  line-height: 0 !important;
+  padding: 0 !important;
+}
+/* line 19, sass/partials/_home.scss */
 body.home .entry-content .ewd-slide {
   background-color: transparent !important;
 }
-/* line 10, sass/partials/_home.scss */
+/* line 22, sass/partials/_home.scss */
 body.home .entry-content h2 {
   border-top: 1px solid #504e4e;
   border-bottom: 1px solid #504e4e;
@@ -142,35 +219,35 @@ body.home .entry-content h2 {
   margin-top: 25px;
   margin-bottom: 50px;
 }
-/* line 22, sass/partials/_home.scss */
+/* line 34, sass/partials/_home.scss */
 body.home .entry-content .columns-3 ul.products li.product a img {
   border: 1px solid #504e4e;
 }
-/* line 25, sass/partials/_home.scss */
+/* line 37, sass/partials/_home.scss */
 body.home .entry-content .columns-3 ul.products li.product a h3 {
   font-size: 1.5rem;
 }
-/* line 28, sass/partials/_home.scss */
+/* line 40, sass/partials/_home.scss */
 body.home .entry-content .columns-3 ul.products li.product a .star-rating {
   font-size: 2rem;
 }
-/* line 31, sass/partials/_home.scss */
+/* line 43, sass/partials/_home.scss */
 body.home .entry-content .columns-3 ul.products li.product a .star-rating span:before {
   color: gold;
 }
-/* line 36, sass/partials/_home.scss */
+/* line 48, sass/partials/_home.scss */
 body.home .entry-content .columns-3 ul.products li.product a .price {
   font-size: 1.5rem;
   color: #8c9954 !important;
 }
-/* line 41, sass/partials/_home.scss */
+/* line 53, sass/partials/_home.scss */
 body.home .entry-content .columns-3 ul.products li.product .button {
   background-color: #8c9954 !important;
   border-radius: 4px;
   border-bottom: none;
   padding: 0.8em 1.41575em;
 }
-/* line 50, sass/partials/_home.scss */
+/* line 62, sass/partials/_home.scss */
 body.home .entry-content .appderma-mobil-promo {
   background-color: #8c9954;
   background-image: url("../img/iphone.jpg");
@@ -179,36 +256,39 @@ body.home .entry-content .appderma-mobil-promo {
   min-height: 300px;
   padding: 25px 35% 25px 25px;
   margin-bottom: 50px;
+  text-align: left;
 }
-/* line 58, sass/partials/_home.scss */
+/* line 71, sass/partials/_home.scss */
 body.home .entry-content .appderma-mobil-promo h3 {
   color: white;
   font-size: 2.5rem;
+  font-weight: 700;
 }
-/* line 62, sass/partials/_home.scss */
+/* line 76, sass/partials/_home.scss */
 body.home .entry-content .appderma-mobil-promo p {
-  font-size: 16px;
+  font-size: 16px !important;
   color: white;
+  line-height: 1.5rem !important;
 }
-/* line 66, sass/partials/_home.scss */
+/* line 81, sass/partials/_home.scss */
 body.home .entry-content .appderma-mobil-promo ul.appderma-store-ico {
   margin: 0;
   padding: 0;
   list-style: none;
 }
-/* line 70, sass/partials/_home.scss */
+/* line 85, sass/partials/_home.scss */
 body.home .entry-content .appderma-mobil-promo ul.appderma-store-ico li {
   width: 35%;
   display: inline-block;
   margin-right: 10px;
 }
-/* line 82, sass/partials/_home.scss */
+/* line 97, sass/partials/_home.scss */
 body.home .entry-content .appderma-brands ul.brands {
   padding: 0;
   margin: 0;
   list-style: none;
 }
-/* line 86, sass/partials/_home.scss */
+/* line 101, sass/partials/_home.scss */
 body.home .entry-content .appderma-brands ul.brands li {
   width: 22%;
   margin-right: 25px;
@@ -558,7 +638,7 @@ body.page-template-template-fullwidth .site-main .entry-content p {
 /* line 14, sass/partials/_brand-store.scss */
 body.page-template-template-fullwidth .site-main .entry-content .store-hero-img {
   width: 100%;
-  height: 400px;
+  height: 350px;
   overflow: hidden;
 }
 /* line 18, sass/partials/_brand-store.scss */
@@ -601,5 +681,59 @@ body.page-template-template-fullwidth .site-main .entry-content .columns-4 ul.pr
 
 /* line 62, sass/partials/_brand-store.scss */
 body.page-tienda-biretix .store-hero-img {
-  background-image: url("https://i2.wp.com/www.appderma.com/wp-content/uploads/2017/01/biretix-banner.jpg");
+  background-image: url("https://www.appderma.com/wp-content/uploads/2017/03/biretix-final-01.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/* line 69, sass/partials/_brand-store.scss */
+body.page-tienda-neoretin .store-hero-img {
+  background-image: url("https://www.appderma.com/wp-content/uploads/2017/03/Neoretin-ok.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/* line 76, sass/partials/_brand-store.scss */
+body.page-tienda-endocare .store-hero-img {
+  background-image: url("https://www.appderma.com/wp-content/uploads/2017/03/ENDOCARE-ARTE-CURVASok-01.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/* line 83, sass/partials/_brand-store.scss */
+body.page-tienda-heliocare .store-hero-img {
+  background-image: url("https://www.appderma.com/wp-content/uploads/2017/03/HELIOCARE-OK-01-01.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/* line 6, sass/partials/_contact.scss */
+body.page-contacto .site-main .entry-content p {
+  text-align: center;
+  padding: 25px;
+  font-size: 1.5rem;
+  border-top: 1px solid #504e4e;
+  border-bottom: 1px solid #504e4e;
+  margin-top: 25px;
+}
+/* line 14, sass/partials/_contact.scss */
+body.page-contacto .site-main .entry-content .contact-info {
+  display: none;
+}
+/* line 21, sass/partials/_contact.scss */
+body.page-contacto .site-main .entry-content .gform_wrapper .gform_body ul.gform_fields li label {
+  display: none;
+}
+/* line 24, sass/partials/_contact.scss */
+body.page-contacto .site-main .entry-content .gform_wrapper .gform_body ul.gform_fields li input {
+  width: 100%;
+  margin-bottom: 25px;
+  padding: 15px !important;
+}
+/* line 32, sass/partials/_contact.scss */
+body.page-contacto .site-main .entry-content .gform_wrapper input[type="submit"] {
+  float: right !important;
+  background-color: #8c9954;
+  border-radius: 4px;
+  padding: 15px 50px;
 }
