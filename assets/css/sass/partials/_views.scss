@@ -1,5 +1,5 @@
 // Input
-body.customize-support {
+body.page-consulta-dermocosmetica-paso-dos {
   .site-main {
     .entry-header {
       display: none;
@@ -101,38 +101,39 @@ body.customize-support {
       }
     }
   }
-
-div.js-wpv-view-layout {
-  ul.js-wpv-loop {
-    margin:0;
-    padding: 0;
-    list-style: none;
-    li {
-      width: 29.4117647059%;
-      float: left;
-      margin-right: 5.8823529412%;
-      text-align: center;
-      margin-bottom: 4.235801032em;
-      &:nth-child(3n+3) {
-        margin-right: 0;
-      }
-      a {
-        font-size: 1.5rem;
-        color:$color-darkgray;
-        font-weight: 400;
-        img {
-           border: 1px solid $color-darkgray;
-           margin-bottom: 1.618em;
-        }
-      }
-      .woocommerce-Price-amount {
-        font-size: 1.5rem;
-        color: #8c9954!important;
-      }
-    }
-  }
 }
 
 // Output
 
+body.page-consulta-dermocosmetica-resultado {
+  div.js-wpv-view-layout {
+    ul.js-wpv-loop {
+      margin:0;
+      padding: 0;
+      list-style: none;
+      li {
+        width: 29.4117647059%;
+        float: left;
+        margin-right: 5.8823529412%;
+        text-align: center;
+        margin-bottom: 4.235801032em;
+        &:nth-child(3n+3) {
+          margin-right: 0;
+        }
+        a {
+          font-size: 1.5rem;
+          color:$color-darkgray;
+          font-weight: 400;
+          img {
+             border: 1px solid $color-darkgray;
+             margin-bottom: 1.618em;
+          }
+        }
+        .woocommerce-Price-amount {
+          font-size: 1.5rem;
+          color: #8c9954!important;
+        }
+      }
+    }
+  }
 }

@@ -4,9 +4,27 @@ body.home {
     display:none;
   }
   .entry-content {
+    // Slider
     section.swiper-container {
       margin: 25px 0 !important;
       margin-bottom: 50px !important;
+      .swiper-wrapper {
+          .swiper-slide {
+              min-height: 350px !important;
+            }
+          }
+          .pagination {
+            background-color: transparent;
+            border: none;
+            padding: 0;
+            span.swiper-pagination-switch {
+              background: $primary-color;
+              width: 1em;
+              height: 1em;
+              opacity: 1;
+              border: 2px solid white;
+            }
+      }
     }
     p {
       border-top: none !important;

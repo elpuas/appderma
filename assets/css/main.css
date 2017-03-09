@@ -75,6 +75,12 @@ body.error404 section ul li a .woocommerce-Price-amount {
   font-size: 1.5rem;
   color: #8c9954;
 }
+/* line 103, sass/partials/_variables.scss */
+body.error404 .widget-area h3 {
+  font-weight: 400;
+  color: #8c9954;
+  font-size: 1.2rem;
+}
 
 /* line 2, sass/partials/_header.scss */
 .top-gfx {
@@ -193,12 +199,30 @@ footer.site-footer .col-full .site-info a {
 body.home header.entry-header {
   display: none;
 }
-/* line 7, sass/partials/_home.scss */
+/* line 8, sass/partials/_home.scss */
 body.home .entry-content section.swiper-container {
   margin: 25px 0 !important;
   margin-bottom: 50px !important;
 }
-/* line 11, sass/partials/_home.scss */
+/* line 12, sass/partials/_home.scss */
+body.home .entry-content section.swiper-container .swiper-wrapper .swiper-slide {
+  min-height: 350px !important;
+}
+/* line 16, sass/partials/_home.scss */
+body.home .entry-content section.swiper-container .pagination {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+}
+/* line 20, sass/partials/_home.scss */
+body.home .entry-content section.swiper-container .pagination span.swiper-pagination-switch {
+  background: #8c9954;
+  width: 1em;
+  height: 1em;
+  opacity: 1;
+  border: 2px solid white;
+}
+/* line 29, sass/partials/_home.scss */
 body.home .entry-content p {
   border-top: none !important;
   border-bottom: none !important;
@@ -206,11 +230,11 @@ body.home .entry-content p {
   line-height: 0 !important;
   padding: 0 !important;
 }
-/* line 19, sass/partials/_home.scss */
+/* line 37, sass/partials/_home.scss */
 body.home .entry-content .ewd-slide {
   background-color: transparent !important;
 }
-/* line 22, sass/partials/_home.scss */
+/* line 40, sass/partials/_home.scss */
 body.home .entry-content h2 {
   border-top: 1px solid #504e4e;
   border-bottom: 1px solid #504e4e;
@@ -219,35 +243,35 @@ body.home .entry-content h2 {
   margin-top: 25px;
   margin-bottom: 50px;
 }
-/* line 34, sass/partials/_home.scss */
+/* line 52, sass/partials/_home.scss */
 body.home .entry-content .columns-3 ul.products li.product a img {
   border: 1px solid #504e4e;
 }
-/* line 37, sass/partials/_home.scss */
+/* line 55, sass/partials/_home.scss */
 body.home .entry-content .columns-3 ul.products li.product a h3 {
   font-size: 1.5rem;
 }
-/* line 40, sass/partials/_home.scss */
+/* line 58, sass/partials/_home.scss */
 body.home .entry-content .columns-3 ul.products li.product a .star-rating {
   font-size: 2rem;
 }
-/* line 43, sass/partials/_home.scss */
+/* line 61, sass/partials/_home.scss */
 body.home .entry-content .columns-3 ul.products li.product a .star-rating span:before {
   color: gold;
 }
-/* line 48, sass/partials/_home.scss */
+/* line 66, sass/partials/_home.scss */
 body.home .entry-content .columns-3 ul.products li.product a .price {
   font-size: 1.5rem;
   color: #8c9954 !important;
 }
-/* line 53, sass/partials/_home.scss */
+/* line 71, sass/partials/_home.scss */
 body.home .entry-content .columns-3 ul.products li.product .button {
   background-color: #8c9954 !important;
   border-radius: 4px;
   border-bottom: none;
   padding: 0.8em 1.41575em;
 }
-/* line 62, sass/partials/_home.scss */
+/* line 80, sass/partials/_home.scss */
 body.home .entry-content .appderma-mobil-promo {
   background-color: #8c9954;
   background-image: url("../img/iphone.jpg");
@@ -258,37 +282,37 @@ body.home .entry-content .appderma-mobil-promo {
   margin-bottom: 50px;
   text-align: left;
 }
-/* line 71, sass/partials/_home.scss */
+/* line 89, sass/partials/_home.scss */
 body.home .entry-content .appderma-mobil-promo h3 {
   color: white;
   font-size: 2.5rem;
   font-weight: 700;
 }
-/* line 76, sass/partials/_home.scss */
+/* line 94, sass/partials/_home.scss */
 body.home .entry-content .appderma-mobil-promo p {
   font-size: 16px !important;
   color: white;
   line-height: 1.5rem !important;
 }
-/* line 81, sass/partials/_home.scss */
+/* line 99, sass/partials/_home.scss */
 body.home .entry-content .appderma-mobil-promo ul.appderma-store-ico {
   margin: 0;
   padding: 0;
   list-style: none;
 }
-/* line 85, sass/partials/_home.scss */
+/* line 103, sass/partials/_home.scss */
 body.home .entry-content .appderma-mobil-promo ul.appderma-store-ico li {
   width: 35%;
   display: inline-block;
   margin-right: 10px;
 }
-/* line 97, sass/partials/_home.scss */
+/* line 115, sass/partials/_home.scss */
 body.home .entry-content .appderma-brands ul.brands {
   padding: 0;
   margin: 0;
   list-style: none;
 }
-/* line 101, sass/partials/_home.scss */
+/* line 119, sass/partials/_home.scss */
 body.home .entry-content .appderma-brands ul.brands li {
   width: 22%;
   margin-right: 25px;
@@ -485,35 +509,35 @@ body.woocommerce-account form.login .woocommerce-LostPassword a {
 }
 
 /* line 4, sass/partials/_views.scss */
-body.customize-support .site-main .entry-header {
+body.page-consulta-dermocosmetica-paso-dos .site-main .entry-header {
   display: none;
 }
 /* line 8, sass/partials/_views.scss */
-body.customize-support .site-main .wpv-filter-form select.js-wpv-filter-trigger {
+body.page-consulta-dermocosmetica-paso-dos .site-main .wpv-filter-form select.js-wpv-filter-trigger {
   width: 100%;
   height: 50px;
   margin-bottom: 25px;
 }
 /* line 13, sass/partials/_views.scss */
-body.customize-support .site-main .wpv-filter-form ul.categorychecklist {
+body.page-consulta-dermocosmetica-paso-dos .site-main .wpv-filter-form ul.categorychecklist {
   list-style: none;
   margin: 0;
   padding: 0;
 }
 /* line 17, sass/partials/_views.scss */
-body.customize-support .site-main .wpv-filter-form ul.categorychecklist li {
+body.page-consulta-dermocosmetica-paso-dos .site-main .wpv-filter-form ul.categorychecklist li {
   width: 50%;
   float: left;
 }
 /* line 22, sass/partials/_views.scss */
-body.customize-support .site-main .wpv-filter-form h3 {
+body.page-consulta-dermocosmetica-paso-dos .site-main .wpv-filter-form h3 {
   text-align: center;
   font-weight: 400;
   text-transform: capitalize;
   margin: 25px auto;
 }
 /* line 28, sass/partials/_views.scss */
-body.customize-support .site-main .wpv-filter-form p {
+body.page-consulta-dermocosmetica-paso-dos .site-main .wpv-filter-form p {
   text-align: center;
   border-top: 1px solid #504e4e;
   border-bottom: 1px solid #504e4e;
@@ -521,107 +545,108 @@ body.customize-support .site-main .wpv-filter-form p {
   margin: 15px auto;
 }
 /* line 36, sass/partials/_views.scss */
-body.customize-support .site-main .wpv-filter-form button.button-default {
+body.page-consulta-dermocosmetica-paso-dos .site-main .wpv-filter-form button.button-default {
   background-color: #8c9954;
   float: right;
   border-radius: 4px;
 }
 /* line 43, sass/partials/_views.scss */
-body.customize-support .site-main .wpv-filter-form .step-one-logic img {
+body.page-consulta-dermocosmetica-paso-dos .site-main .wpv-filter-form .step-one-logic img {
   width: 20%;
   margin: 0 auto;
 }
 /* line 49, sass/partials/_views.scss */
-body.customize-support .site-main .wpv-filter-form .step-two-logic img {
+body.page-consulta-dermocosmetica-paso-dos .site-main .wpv-filter-form .step-two-logic img {
   width: 20%;
   margin: 0 auto;
 }
 /* line 53, sass/partials/_views.scss */
-body.customize-support .site-main .wpv-filter-form .step-two-logic a.io-modal-open {
+body.page-consulta-dermocosmetica-paso-dos .site-main .wpv-filter-form .step-two-logic a.io-modal-open {
   display: none;
 }
 /* line 56, sass/partials/_views.scss */
-body.customize-support .site-main .wpv-filter-form .step-two-logic select {
+body.page-consulta-dermocosmetica-paso-dos .site-main .wpv-filter-form .step-two-logic select {
   padding: 15px;
 }
 /* line 58, sass/partials/_views.scss */
-body.customize-support .site-main .wpv-filter-form .step-two-logic select option {
+body.page-consulta-dermocosmetica-paso-dos .site-main .wpv-filter-form .step-two-logic select option {
   padding: 10px;
   height: 50px;
 }
 /* line 63, sass/partials/_views.scss */
-body.customize-support .site-main .wpv-filter-form .step-two-logic select option[value="uno"] {
+body.page-consulta-dermocosmetica-paso-dos .site-main .wpv-filter-form .step-two-logic select option[value="uno"] {
   background-color: #fdeed7;
   color: #250705;
   font-size: 3rem;
   font-weight: 700;
 }
 /* line 70, sass/partials/_views.scss */
-body.customize-support .site-main .wpv-filter-form .step-two-logic select option[value="fototipo-dos"] {
+body.page-consulta-dermocosmetica-paso-dos .site-main .wpv-filter-form .step-two-logic select option[value="fototipo-dos"] {
   background-color: #ffe0c7;
   color: #c2a387;
   font-size: 3rem;
   font-weight: 700;
 }
 /* line 76, sass/partials/_views.scss */
-body.customize-support .site-main .wpv-filter-form .step-two-logic select option[value="fototipo-tres"] {
+body.page-consulta-dermocosmetica-paso-dos .site-main .wpv-filter-form .step-two-logic select option[value="fototipo-tres"] {
   background-color: #fccda1;
   color: #cb933e;
   font-size: 3rem;
   font-weight: 700;
 }
 /* line 82, sass/partials/_views.scss */
-body.customize-support .site-main .wpv-filter-form .step-two-logic select option[value="fototipo-cuatro"] {
+body.page-consulta-dermocosmetica-paso-dos .site-main .wpv-filter-form .step-two-logic select option[value="fototipo-cuatro"] {
   background-color: #e0ad6b;
   color: #ffe0c9;
   font-size: 3rem;
   font-weight: 700;
 }
 /* line 88, sass/partials/_views.scss */
-body.customize-support .site-main .wpv-filter-form .step-two-logic select option[value="fototipo-cinco"] {
+body.page-consulta-dermocosmetica-paso-dos .site-main .wpv-filter-form .step-two-logic select option[value="fototipo-cinco"] {
   background-color: #8c563a;
   color: #f7ddc4;
   font-size: 3rem;
   font-weight: 700;
 }
 /* line 94, sass/partials/_views.scss */
-body.customize-support .site-main .wpv-filter-form .step-two-logic select option[value="fototipo-seis"] {
+body.page-consulta-dermocosmetica-paso-dos .site-main .wpv-filter-form .step-two-logic select option[value="fototipo-seis"] {
   background-color: #270a04;
   color: #fffef1;
   font-size: 3rem;
   font-weight: 700;
 }
-/* line 106, sass/partials/_views.scss */
-body.customize-support div.js-wpv-view-layout ul.js-wpv-loop {
+
+/* line 110, sass/partials/_views.scss */
+body.page-consulta-dermocosmetica-resultado div.js-wpv-view-layout ul.js-wpv-loop {
   margin: 0;
   padding: 0;
   list-style: none;
 }
-/* line 110, sass/partials/_views.scss */
-body.customize-support div.js-wpv-view-layout ul.js-wpv-loop li {
+/* line 114, sass/partials/_views.scss */
+body.page-consulta-dermocosmetica-resultado div.js-wpv-view-layout ul.js-wpv-loop li {
   width: 29.4117647059%;
   float: left;
   margin-right: 5.8823529412%;
   text-align: center;
   margin-bottom: 4.235801032em;
 }
-/* line 116, sass/partials/_views.scss */
-body.customize-support div.js-wpv-view-layout ul.js-wpv-loop li:nth-child(3n+3) {
+/* line 120, sass/partials/_views.scss */
+body.page-consulta-dermocosmetica-resultado div.js-wpv-view-layout ul.js-wpv-loop li:nth-child(3n+3) {
   margin-right: 0;
 }
-/* line 119, sass/partials/_views.scss */
-body.customize-support div.js-wpv-view-layout ul.js-wpv-loop li a {
+/* line 123, sass/partials/_views.scss */
+body.page-consulta-dermocosmetica-resultado div.js-wpv-view-layout ul.js-wpv-loop li a {
   font-size: 1.5rem;
   color: #504e4e;
   font-weight: 400;
 }
-/* line 123, sass/partials/_views.scss */
-body.customize-support div.js-wpv-view-layout ul.js-wpv-loop li a img {
+/* line 127, sass/partials/_views.scss */
+body.page-consulta-dermocosmetica-resultado div.js-wpv-view-layout ul.js-wpv-loop li a img {
   border: 1px solid #504e4e;
   margin-bottom: 1.618em;
 }
-/* line 128, sass/partials/_views.scss */
-body.customize-support div.js-wpv-view-layout ul.js-wpv-loop li .woocommerce-Price-amount {
+/* line 132, sass/partials/_views.scss */
+body.page-consulta-dermocosmetica-resultado div.js-wpv-view-layout ul.js-wpv-loop li .woocommerce-Price-amount {
   font-size: 1.5rem;
   color: #8c9954 !important;
 }
@@ -736,4 +761,11 @@ body.page-contacto .site-main .entry-content .gform_wrapper input[type="submit"]
   background-color: #8c9954;
   border-radius: 4px;
   padding: 15px 50px;
+}
+
+@media (max-width: 568px) {
+  /* line 4, sass/partials/_media-queries.scss */
+  body.home header.site-header .storefront-primary-navigation {
+    border: none;
+  }
 }
