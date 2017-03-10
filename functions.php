@@ -28,8 +28,10 @@ function sf_child_theme_dequeue_style() {
  function appderma_scripts() {
 
    wp_enqueue_style( 'appderma-google-fonts', 'https://fonts.googleapis.com/css?family=Raleway:400,700', false );
-
    wp_enqueue_style( 'appderma-style', get_stylesheet_directory_uri() . '/assets/css/main.min.css' );
+   wp_enqueue_script( 'appderma-script', get_stylesheet_directory_uri() . '/assets/js/jquery.validate.min.js', array( 'jquery' ), '1.15.0', true );
+   wp_enqueue_script( 'app-scripts', get_stylesheet_directory_uri() . '/assets/js/app-scripts.js', array( 'jquery' ), '1.0.4', true );
+
  }
    add_action( 'wp_enqueue_scripts', 'appderma_scripts' );
 
