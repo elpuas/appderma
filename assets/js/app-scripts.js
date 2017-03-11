@@ -1,17 +1,19 @@
 jQuery(document).ready(function () {
     jQuery ('.js-wpv-filter-form').validate({ // initialize the plugin
+      errorPlacement: function (error, element) {
+        error.insertBefore(element);
+          },
         rules: {
             'wpv-lesion-o-patologia[]': {
                 required: true,
-                maxlength: 2
+                maxlength: 10
             }
         },
         messages: {
             'wpv-lesion-o-patologia[]': {
-                required: "You must check at least 1 box",
-                maxlength: "Check no more than {0} boxes"
+                required: "Debes Seleccionar por lo menos una",
+                maxlength: "No Puedes seleccionar mas de {10} cajas"
             }
-        }
+        },
     });
-
 });

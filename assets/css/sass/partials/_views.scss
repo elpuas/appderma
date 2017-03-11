@@ -98,6 +98,15 @@ body.page-consulta-dermocosmetica-paso-dos {
             font-weight: 700;
           }
         }
+        label.error {
+            font-weight: 600;
+            display: block;
+            text-align: center;
+            color: red;
+            border: 1px solid;
+            margin: 5px;
+            padding: 5px;
+        }
       }
     }
   }

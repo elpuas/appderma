@@ -615,14 +615,24 @@ body.page-consulta-dermocosmetica-paso-dos .site-main .wpv-filter-form .step-two
   font-size: 3rem;
   font-weight: 700;
 }
+/* line 101, sass/partials/_views.scss */
+body.page-consulta-dermocosmetica-paso-dos .site-main .wpv-filter-form .step-two-logic label.error {
+  font-weight: 600;
+  display: block;
+  text-align: center;
+  color: red;
+  border: 1px solid;
+  margin: 5px;
+  padding: 5px;
+}
 
-/* line 110, sass/partials/_views.scss */
+/* line 119, sass/partials/_views.scss */
 body.page-consulta-dermocosmetica-resultado div.js-wpv-view-layout ul.js-wpv-loop {
   margin: 0;
   padding: 0;
   list-style: none;
 }
-/* line 114, sass/partials/_views.scss */
+/* line 123, sass/partials/_views.scss */
 body.page-consulta-dermocosmetica-resultado div.js-wpv-view-layout ul.js-wpv-loop li {
   width: 29.4117647059%;
   float: left;
@@ -630,22 +640,22 @@ body.page-consulta-dermocosmetica-resultado div.js-wpv-view-layout ul.js-wpv-loo
   text-align: center;
   margin-bottom: 4.235801032em;
 }
-/* line 120, sass/partials/_views.scss */
+/* line 129, sass/partials/_views.scss */
 body.page-consulta-dermocosmetica-resultado div.js-wpv-view-layout ul.js-wpv-loop li:nth-child(3n+3) {
   margin-right: 0;
 }
-/* line 123, sass/partials/_views.scss */
+/* line 132, sass/partials/_views.scss */
 body.page-consulta-dermocosmetica-resultado div.js-wpv-view-layout ul.js-wpv-loop li a {
   font-size: 1.5rem;
   color: #504e4e;
   font-weight: 400;
 }
-/* line 127, sass/partials/_views.scss */
+/* line 136, sass/partials/_views.scss */
 body.page-consulta-dermocosmetica-resultado div.js-wpv-view-layout ul.js-wpv-loop li a img {
   border: 1px solid #504e4e;
   margin-bottom: 1.618em;
 }
-/* line 132, sass/partials/_views.scss */
+/* line 141, sass/partials/_views.scss */
 body.page-consulta-dermocosmetica-resultado div.js-wpv-view-layout ul.js-wpv-loop li .woocommerce-Price-amount {
   font-size: 1.5rem;
   color: #8c9954 !important;
