@@ -132,3 +132,30 @@ ul.products {
     }
   }
 }
+
+// Redeem Points Hide
+
+.woocommerce-info.wc_points_redeem_earn_points {
+    display: none;
+}
+
+.comment {
+  .comment_container {
+    background-color: $primary-color-light-5 !important;
+    .comment-text {
+      .star-rating {
+        span {
+        &:before {
+          color: gold !important;
+        }
+      }
+      }
+      p.meta {
+
+      }
+      .description {
+        display: none;
+      }
+    }
+  }
+}

@@ -137,13 +137,3 @@ function appderma_override_checkout_fields( $fields ) {
 
  return $fields;
 }
-
-// Change Order Comments
-
-add_filter( 'woocommerce_checkout_fields' , 'appderma_order_comments_checkout_fields' );
-
-// Our hooked in function - $fields is passed via the filter!
-function appderma_order_comments_checkout_fields( $fields ) {
- $fields['order']['order_comments']['placeholder'] = 'A que Hora te gustaria la entrega';
- return $fields;
-}

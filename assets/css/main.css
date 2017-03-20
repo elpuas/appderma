@@ -879,6 +879,24 @@ body.page-consulta-dermocosmetica-resultado ul.js-wpv-loop li img {
   border-bottom: solid 10px #8c9954 !important;
 }
 
+/* line 138, sass/partials/_miscellaneous.scss */
+.woocommerce-info.wc_points_redeem_earn_points {
+  display: none;
+}
+
+/* line 143, sass/partials/_miscellaneous.scss */
+.comment .comment_container {
+  background-color: #c5d776 !important;
+}
+/* line 148, sass/partials/_miscellaneous.scss */
+.comment .comment_container .comment-text .star-rating span:before {
+  color: gold !important;
+}
+/* line 156, sass/partials/_miscellaneous.scss */
+.comment .comment_container .comment-text .description {
+  display: none;
+}
+
 @media (max-width: 568px) {
   /* line 3, sass/partials/_media-queries.scss */
   body header.site-header {
