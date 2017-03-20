@@ -21,6 +21,9 @@ body {
   .woocommerce-breadcrumb {
     background-color: transparent !important;
   }
+  .entry-header {
+    display: none;
+  }
   .entry-content {
     h3 {
       text-align: center;
@@ -99,11 +102,30 @@ body.error404 {
       }
     }
   }
-  .widget-area {
-    h3 {
-      font-weight: 400;
-      color: $primary-color;
-      font-size: 1.2rem;
+}
+
+// Sidebar
+
+.widget-area {
+  .widget_product_search {
+    span {
+      display: none;
+    }
+  }
+  .widget_text {
+    .textwidget {
+      h3 {
+        font-weight: 400;
+        color: $primary-color;
+        font-size: 1rem;
+      }
+      ul {
+        li {
+          i.fa {
+            color: $primary-color;
+          }
+        }
+      }
     }
   }
 }

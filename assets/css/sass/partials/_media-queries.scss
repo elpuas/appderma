@@ -1,9 +1,125 @@
 @media (max-width: 568px) {
-  body.home {
+  body {
     header.site-header {
+      margin-bottom: 0 !important;
+      padding-bottom: 0;
       .storefront-primary-navigation {
         border: none;
       }
+      .main-navigation {
+        .menu-toggle {
+          background-color: $primary-color;
+          border: none !important;
+          border-radius: 4px;
+          color: white;
+        }
+        .menu {
+          background-color: $color-darkgray;
+          padding-bottom: 100px;
+        }
+      }
     }
   }
+  .entry-content {
+    .appderma-brands {
+      ul.brands {
+        li {
+          width: 100% !important;
+          margin-right: 0 !important;
+          margin-bottom: 25px !important;
+        }
+      }
+    }
+  }
+  .storefront-handheld-footer-bar {
+    border-top: none !important;
+  li.my-account a {
+      background-color: #8c9954 !important;
+      color: white !important;
+    }
+  li.search a {
+      background-color: #acbc69 !important;
+      color: white !important;
+    }
+  li.cart a {
+      background-color: #c5d776 !important;
+      color: white !important;
+      span.count {
+        background-color: green !important;
+        color: white !important;
+      }
+    }
+  }
+  body.page-contacto {
+    .gform_body {
+      ul.gform_fields {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        li {
+          label {
+            display: none;
+          }
+          p {
+            font-size: 16px;
+            border: none;
+            padding: 0;
+            margin: 0;
+            line-height: 0 !important;
+            input {
+              width: 100%;
+            }
+          }
+          input {
+            width: 100%;
+            margin-bottom: 20px;
+          }
+        }
+      }
+    }
+  }
+    // Store images
+
+    .store-hero-img {
+      height: 150px !important;
+  }
+
+    .columns-4 {
+        ul.products {
+          li.product {
+            min-width: 100% !important;
+        }
+      }
+    }
+    body.page-mi-cuenta .row {
+       width: 100%;
+       float: none;
+       -webkit-apperance: menulist;
+   }
+   body.page-puntos {
+     .col-50 {
+       width: 35% !important;
+       float: left;
+       margin: 25px !important;
+       h3 {
+        text-align: center;
+        font-weight: 400;
+        padding: 0;
+        margin: 0;
+        font-size: 1rem;
+        a {
+          color: $primary-color;
+        }
+        }
+     }
+  }
+  body.page-consulta-dermocosmetica-resultado {
+    ul.js-wpv-loop {
+      li {
+      min-width: 100% !important;
+      float: none;
+    }
+  }
+}
+  // End Querie Mobile
 }

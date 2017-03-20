@@ -13,9 +13,6 @@ body.woocommerce-page {
     ul.products {
       li.product {
         a {
-          img {
-            border: 1px solid $color-darkgray;
-          }
           h3 {
             font-size: 1.5rem;
             font-weight: 400;
@@ -45,7 +42,7 @@ body.woocommerce-page {
       .images {
         a {
           img {
-            border: 1px solid $color-darkgray;
+            border: 1px solid $color-lightgray;
           }
         }
       }
