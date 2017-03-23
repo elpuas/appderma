@@ -897,6 +897,29 @@ body.page-consulta-dermocosmetica-resultado ul.js-wpv-loop li img {
   display: none;
 }
 
+/* line 168, sass/partials/_miscellaneous.scss */
+table.group_table tbody tr td {
+  padding: 10px 5px;
+  border-bottom: 1px solid #504e4e;
+}
+/* line 174, sass/partials/_miscellaneous.scss */
+table.group_table tbody tr td.label a {
+  color: #8c9954;
+}
+/* line 179, sass/partials/_miscellaneous.scss */
+table.group_table tbody tr td.price span.amount {
+  font-size: 0.875em;
+}
+/* line 182, sass/partials/_miscellaneous.scss */
+table.group_table tbody tr td.price p.in-stock {
+  font-size: 0.5em;
+  color: #504e4e;
+}
+/* line 185, sass/partials/_miscellaneous.scss */
+table.group_table tbody tr td.price p.in-stock:before {
+  display: none;
+}
+
 @media (max-width: 568px) {
   /* line 3, sass/partials/_media-queries.scss */
   body header.site-header {

@@ -159,3 +159,34 @@ ul.products {
     }
   }
 }
+
+// Grouped Products
+
+table.group_table {
+  tbody {
+    tr {
+      td {
+        padding:10px 5px;
+        border-bottom: 1px solid $color-darkgray;
+
+      }
+      td.label {
+        a {
+          color: $primary-color;
+        }
+      }
+      td.price {
+        span.amount {
+          font-size: 0.875em;
+        }
+        p.in-stock {
+          font-size:0.5em;
+          color:$color-darkgray;
+          &:before {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}
