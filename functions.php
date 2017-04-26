@@ -70,7 +70,7 @@ function woo_products_by_tags_shortcode( $atts, $content = null ) {
 
   // Get attribuets
       extract( shortcode_atts( array(
-      'per_page' 		=> '24', // No Pagination
+      'per_page' 		=> '99', // No Pagination
       'columns' 		=> '4',
       'orderby'   	=> 'title',
       'order'     	=> 'desc',
@@ -136,4 +136,13 @@ function appderma_override_checkout_fields( $fields ) {
  unset($fields['billing']['billing_postcode']);
 
  return $fields;
+}
+
+// Remove Variations Price
+
+add_filter( 'woocommerce_grouped_price_html', 'appderma_remove_variation_price', 10, 2 );
+
+function appderma_remove_variation_price( $price ) {
+$price = '';
+return $price;
 }

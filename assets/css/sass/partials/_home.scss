@@ -49,8 +49,10 @@ body.home {
         ul.products {
           li.product {
             a {
-              h3 {
+              h2 {
                 font-size: 1.5rem;
+                border: none;
+                margin: inherit;
               }
               .star-rating {
                 font-size: 2rem;

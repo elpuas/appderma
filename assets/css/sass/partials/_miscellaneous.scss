@@ -38,8 +38,8 @@ ul.products {
       img {
         border: 1px solid $color-darkgray;
       }
-      h3 {
-        font-size: 1.5rem;
+      h2 {
+        font-size: 1.5rem !important;
         font-weight: 400;
       }
       .star-rating {
